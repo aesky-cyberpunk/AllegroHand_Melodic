@@ -133,8 +133,8 @@ a peak-systems pcan to usb adapter.
 
 1. libpcan is now part of the ubuntu melodic, check are CAN drivers part of your linux environment. All PEAK drivers are listed (y = included in kernel, m = separate module)
 
-    grep PEAK_ /boot/config-'uname -r'
-    lsmod | grep ^peak
+    -   `grep PEAK_ /boot/config-'uname -r'`
+    -   `lsmod | grep ^peak`
 
 2. Download latest drivers: http://www.peak-system.com/fileadmin/media/linux/index.htm#download
 
